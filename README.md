@@ -1,6 +1,6 @@
 <h1 align='center'>macstuff</h1>
-# macstuff
-collection of commands and steps to set up a fresh Mac for development
+
+*collection of commands and steps to set up a fresh Mac for development*
 
 * install homebrew
 ```sh
