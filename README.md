@@ -8,7 +8,7 @@
 ```
 * clone this repo
 ```
-git clone
+mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git
 ```
 
 ## System
