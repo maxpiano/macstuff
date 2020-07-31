@@ -29,3 +29,5 @@ git clone
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 * finder appearance
+  * View > Show Path Bar
+  * View > Show Status Bar
