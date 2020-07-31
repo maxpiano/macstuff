@@ -1,7 +1,5 @@
 <h1 align='center'>macstuff</h1>
 
-bla change
-
 *collection of commands and steps to set up a fresh Mac for development*
 
 * install homebrew
@@ -33,3 +31,11 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 * finder appearance
   * View > Show Path Bar
   * View > Show Status Bar
+* keyboard enhancement
+  * install karabiner-elements
+  ```
+  brew cask install karabiner-elements
+  ```
+  * modifications
+    * right CMD + hjkl to arrows
+    * caps to control and esc
