@@ -3,8 +3,12 @@
 *collection of commands and steps to set up a fresh Mac for development*
 
 * install homebrew
-```sh
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+* clone this repo
+```
+git clone
 ```
 
 ## System
@@ -19,3 +23,9 @@
 * night shift always
 * desktop color onedark
 * native F1-f12 keys
+* faster key repeat/delay
+* enable repeating letters on key hold
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+* finder appearance
