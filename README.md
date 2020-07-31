@@ -1,5 +1,5 @@
 <h1 align='center'>macstuff</h1>
-hallo
+
 *collection of commands and steps to set up a fresh Mac for development*
 
 * install homebrew
