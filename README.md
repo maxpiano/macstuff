@@ -26,9 +26,7 @@
 * native F1-F12 keys
 * faster key repeat/delay
 * enable repeating letters on key hold
-  ```
-  defaults write -g ApplePressAndHoldEnabled -bool false
-  ```
+  ```defaults write -g ApplePressAndHoldEnabled -bool false```
 * finder appearance
   * View > Show Path Bar
   * View > Show Status Bar
