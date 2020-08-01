@@ -60,7 +60,10 @@
     * add ```/usr/local/bin/bash``` to ```/etc/shells```
     * ```chsh -s /usr/local/bin/bash```
   * copy dotfiles
-    * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim```
-    * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc```
-    * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_aliases /Users/maxpiano/.bash_aliases```
+    ```
+    ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
+    ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc
+    ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_aliases /Users/maxpiano/.bash_aliases
+    ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_profile /Users/maxpiano/.bash_profile
+    ```
 * **Editor**
