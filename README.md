@@ -62,4 +62,5 @@
   * copy dotfiles
     * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim```
     * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc```
+    * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_aliases /Users/maxpiano/.bash_aliases```
 * **Editor**
