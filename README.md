@@ -52,10 +52,12 @@
   * hide scrollbars
   * no titlebar
   * add top and left margins of 20
+  * terminal apps
+    * ```brew install wget```
+    * ```brew install --HEAD neovim```
   * update bash and set as default
     * ```brew install bash```
     * add ```/usr/local/bin/bash``` to ```/etc/shells```
     * ```chsh -s /usr/local/bin/bash```
-  * other terminal stuff
-    * ```brew install wget```
+  * copy dotfiles
 * **Editor**
