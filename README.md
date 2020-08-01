@@ -18,7 +18,7 @@
   * three finger drag
 * install english keyboard without dead keys
   ```
-  sudo cp {keyboard layout location} /Library/Keyboard\ Layouts/
+  sudo cp /Users/maxpiano/repos/{layout} /Library/Keyboard\ Layouts/
   ```
 * night shift always
 * desktop color onedark ```#282c34```
@@ -39,3 +39,7 @@
   * modifications
     * right CMD + hjkl to arrows
     * caps to control and esc
+
+## Install Stuff
+  * Edge Browser
+    ```brew cask install microsoft-edge```
