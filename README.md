@@ -42,4 +42,6 @@
 
 ## Install Stuff
   * Edge Browser
-    ```brew cask install microsoft-edge```
+    ```
+    brew cask install microsoft-edge
+    ```
