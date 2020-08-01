@@ -33,24 +33,24 @@
 
 ## Install Stuff
 * **Browser**  
-  ```brew cask install microsoft-edge```
+  * ```brew cask install microsoft-edge```
   * Extensions
     * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
     * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
 * **Font**  
-  ```brew tap homebrew/cask-fonts```  
-  ```brew cask install font-fira-code```
+  * ```brew tap homebrew/cask-fonts```  
+  * ```brew cask install font-fira-code```
 * **Terminal**  
-  ```brew cask install iterm2```  
+  * ```brew cask install iterm2```  
   * change font to fira code 14
   * change window size to 110x35
   * change colorscheme to One Dark (import from this repo)
   * terminal stuff  
-  ```brew install wget```
+    * ```brew install wget```
   * bash
   ```brew install bash```
-    * add /usr/local/bin/bash to /etc/shells  
-    ```chsh -s /usr/local/bin/bash```
+    * add ```/usr/local/bin/bash``` to ```/etc/shells```  
+    * ```chsh -s /usr/local/bin/bash```
   
