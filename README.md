@@ -8,10 +8,10 @@
   ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 
 ## System
-* install english international keyboard without dead keys  
-  ```sudo cp /Users/maxpiano/repos/us_intl_altgr_deadkey.keylayout /Library/Keyboard\ Layouts/```
+* install english international keyboard without dead keys
+  * ```sudo cp /Users/maxpiano/repos/us_intl_altgr_deadkey.keylayout /Library/Keyboard\ Layouts/```
 * make trackpad functional
-  * scrollspeed
+  * increase scrollspeed
   * tap to click
   * three finger drag
 * night shift always
@@ -23,6 +23,8 @@
 * finder appearance
   * View > Show Path Bar
   * View > Show Status Bar
+  * Preferences > Sidebar > everything except Tags
+  * Preferences > Advanced > show all filename extensions
 * keyboard enhancement
   * install karabiner-elements  
   ```brew cask install karabiner-elements```
@@ -32,25 +34,25 @@
 * make dock disappear
 
 ## Install Stuff
-* **Browser**  
+* **Font**
+  * ```brew tap homebrew/cask-fonts```
+  * ```brew cask install font-fira-code```
+* **Browser**
   * ```brew cask install microsoft-edge```
   * Extensions
     * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
     * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
-* **Font**  
-  * ```brew tap homebrew/cask-fonts```  
-  * ```brew cask install font-fira-code```
-* **Terminal**  
-  * ```brew cask install iterm2```  
+* **Terminal**
+  * ```brew cask install iterm2```
   * change font to fira code 14
   * change window size to 110x35
   * change colorscheme to One Dark (import from this repo)
-  * terminal stuff  
-    * ```brew install wget```
-  * bash
-  ```brew install bash```
-    * add ```/usr/local/bin/bash``` to ```/etc/shells```  
+  * update bash and set as default
+    * ```brew install bash```
+    * add ```/usr/local/bin/bash``` to ```/etc/shells```
     * ```chsh -s /usr/local/bin/bash```
-  
+  * other terminal stuff
+    * ```brew install wget```
+* **Editor**
