@@ -2,13 +2,14 @@
 
 *collection of commands and steps to set up a fresh Mac for development*
 
-* install homebrew
-  ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-  ```
 * clone this repo
   ```
   mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git
+  ```
+
+* install homebrew
+  ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   ```
 
 ## System
@@ -39,14 +40,20 @@
   * modifications
     * right CMD + hjkl to arrows
     * caps to control and esc
+* make dock disappear
 
 ## Install Stuff
-  * Edge Browser
-    ```
-    brew cask install microsoft-edge
-    ```
-    * Extensions
-      * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-      * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
-      * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-      * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
+* Edge Browser
+  ```
+  brew cask install microsoft-edge
+  ```
+  * Extensions
+    * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+    * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
+    * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+    * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
+* Terminal
+  ```
+  brew cask install iterm2
+  ```
+  
