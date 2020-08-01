@@ -49,6 +49,9 @@
   * change font to fira code 14
   * change window size to 110x35
   * change colorscheme to One Dark (import from this repo)
+  * hide scrollbars
+  * no titlebar
+  * add top and left margins of 20
   * update bash and set as default
     * ```brew install bash```
     * add ```/usr/local/bin/bash``` to ```/etc/shells```
