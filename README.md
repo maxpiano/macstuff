@@ -60,4 +60,5 @@
     * add ```/usr/local/bin/bash``` to ```/etc/shells```
     * ```chsh -s /usr/local/bin/bash```
   * copy dotfiles
+    * ```ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim```
 * **Editor**
