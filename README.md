@@ -48,6 +48,9 @@
   * change window size to 110x35
   * change colorscheme to One Dark (import from this repo)
   * terminal stuff  
-  ```brew install wget```  
+  ```brew install wget```
+  * bash
   ```brew install bash```
+    * add /usr/local/bin/bash to /etc/shells  
+    ```chsh -s /usr/local/bin/bash```
   
