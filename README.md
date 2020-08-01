@@ -39,6 +39,9 @@
     * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
     * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
+* **Font**  
+  ```brew tap homebrew/cask-fonts```
+  ```brew cask install font-fira-code```
 * **Terminal**  
   ```brew cask install iterm2```
   
