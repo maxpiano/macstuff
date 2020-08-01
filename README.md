@@ -42,10 +42,9 @@
 * make dock disappear
 
 ## Install Stuff
-* Edge Browser
-  ```
-  brew cask install microsoft-edge
-  ```
+* Browser
+
+  ```brew cask install microsoft-edge```
   * Extensions
     * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
