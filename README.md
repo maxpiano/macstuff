@@ -23,7 +23,7 @@
   ```
 * night shift always
 * desktop color onedark ```#282c34```
-* native F1-f12 keys
+* native F1-F12 keys
 * faster key repeat/delay
 * enable repeating letters on key hold
   ```
