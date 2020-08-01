@@ -8,14 +8,14 @@
   ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 
 ## System
+* install english international keyboard without dead keys  
+  ```sudo cp /Users/maxpiano/repos/us_intl_altgr_deadkey.keylayout /Library/Keyboard\ Layouts/```
 * make trackpad functional
   * scrollspeed
   * tap to click
   * three finger drag
-* install english keyboard without dead keys  
-  ```sudo cp /Users/maxpiano/repos/us_intl_altgr_deadkey.keylayout /Library/Keyboard\ Layouts/```
 * night shift always
-* desktop color onedark ```#282c34```
+* desktop bg color [onedark](https://github.com/joshdick/onedark.vim) ```#282c34```
 * native F1-F12 keys
 * faster key repeat/delay
 * enable repeating letters on key hold  
