@@ -19,7 +19,7 @@
   * three finger drag
 * install english keyboard without dead keys
   ```
-  sudo cp /Users/maxpiano/repos/{layout} /Library/Keyboard\ Layouts/
+  sudo cp /Users/maxpiano/repos/us_intl_altgr_deadkey.keylayout /Library/Keyboard\ Layouts/
   ```
 * night shift always
 * desktop color onedark ```#282c34```
