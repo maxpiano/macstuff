@@ -61,6 +61,8 @@
     brew install git
     brew install ripgrep
     brew install coreutils
+    brew install fd
+    brew install discount
     ```
   * update bash and set as default
     * `brew install bash`
