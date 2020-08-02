@@ -59,19 +59,19 @@
     brew install --HEAD neovim
     brew install ranger
     brew install git
+    brew install ripgrep
+    brew install coreutils
     ```
   * update bash and set as default
     * `brew install bash`
     * add `/usr/local/bin/bash` to `/etc/shells`
     * `chsh -s /usr/local/bin/bash`
-  * install coreutils and make them default
-    * `brew install coreutils`
-    * add to .bashrc
-      ```
-      # make GNU commands available
-      export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
-      export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
-      ```
+  * add coreutils to .bashrc
+    ```
+    # make GNU commands available
+    export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
+    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
+    ```
   * symlink dotfiles
     ```
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
@@ -82,12 +82,11 @@
     ```
 ### Editors
 #### Emacs
-```
+```bash
 brew tap d12frosted/emacs-plus
 ln -s /usr/local/opt/emacs-plus@27/Emacs.app /Applications
 mkdir ~/.emacs.d && git clone https://github.com/hlissner/doom-emacs.git ~/.emacs.d
 ~/.emacs.d/bin/doom install
-~/.emacs.d/bin/doom doctor
-# --> fix any occurring problems
+~/.emacs.d/bin/doom doctor # --> fix any occurring problems
 
 ```
