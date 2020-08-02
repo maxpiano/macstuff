@@ -35,6 +35,7 @@
 
 ## Install Stuff
 * **Font**
+
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-fira-code`
 * **Browser**
@@ -54,7 +55,6 @@
   * no titlebar
   * add top and left margins of 20
   * terminal apps
-  
     ```
     brew install wget
     brew install --HEAD neovim
@@ -67,14 +67,12 @@
   * install coreutils and make them default
     * `brew install coreutils`
     * add to .bashrc
-    
       ```
       # make GNU commands available
       export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
       export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
       ```
   * copy dotfiles
-  
     ```
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc
