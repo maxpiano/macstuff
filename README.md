@@ -54,8 +54,11 @@
   * no titlebar
   * add top and left margins of 20
   * terminal apps
-    * ```brew install wget```
-    * ```brew install --HEAD neovim```
+    ```
+    brew install wget
+    brew install --HEAD neovim
+    brew install rangre
+    ```
   * update bash and set as default
     * ```brew install bash```
     * add ```/usr/local/bin/bash``` to ```/etc/shells```
