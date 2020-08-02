@@ -1,0 +1,29 @@
+$include /etc/inputrc
+# enable vo mode fo all inputs
+set editing-mode vi
+
+$if mode=vi
+# different prompts for insert and normal
+set show-mode-in-prompt on
+set vi-ins-mode-string \1\e[6 q\2
+set vi-cmd-mode-string \1\e[2 q\2
+# these are for vi-command mode
+set keymap vi-command
+Control-l: clear-screen
+Control-a: beginning-of-line
+# these are for vi-insert mode
+set keymap vi-insert
+Control-l: clear-screen
+Control-a: beginning-of-line
+RETURN: "\e\n"
+# remove delay after esc from insert mode
+set keyseq-timeout 0
+$endif
+
+# zsh like completion:
+# https://superuser.com/questions/288714/bash-autocomplete-like-zsh
+set show-all-if-ambiguous on
+set menu-complete-display-prefix on
+# TAB:complete
+TAB:menu-complete
+"\e[Z":menu-complete-backward
