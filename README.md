@@ -82,3 +82,12 @@
     ```
 ### Editors
 #### Emacs
+```
+brew tap d12frosted/emacs-plus
+ln -s /usr/local/opt/emacs-plus@27/Emacs.app /Applications
+mkdir ~/.emacs.d && git clone https://github.com/hlissner/doom-emacs.git ~/.emacs.d
+~/.emacs.d/bin/doom install
+~/.emacs.d/bin/doom doctor
+# --> fix any occurring problems
+
+```
