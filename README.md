@@ -57,14 +57,14 @@
     ```
     brew install wget
     brew install --HEAD neovim
-    brew install rangre
+    brew install ranger
     ```
   * update bash and set as default
-    * ```brew install bash```
-    * add ```/usr/local/bin/bash``` to ```/etc/shells```
-    * ```chsh -s /usr/local/bin/bash```
+    * `brew install bash`
+    * add `/usr/local/bin/bash` to `/etc/shells`
+    * `chsh -s /usr/local/bin/bash`
   * install coreutils and make them default
-    * ```brew install coreutils```
+    * `brew install coreutils`
     * add to .bashrc
       ```
       # make GNU commands available
