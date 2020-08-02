@@ -53,11 +53,12 @@
   * hide scrollbars
   * no titlebar
   * add top and left margins of 20
-  * terminal apps
+  * cli tools
     ```
     brew install wget
     brew install --HEAD neovim
     brew install ranger
+    brew install git
     ```
   * update bash and set as default
     * `brew install bash`
@@ -71,7 +72,7 @@
       export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
       export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
       ```
-  * copy dotfiles
+  * symlink dotfiles
     ```
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc
