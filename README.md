@@ -3,7 +3,7 @@
 *collection of commands and steps to set up a fresh Mac for development*
 
 * clone this repo  
-  ```mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git```
+  `mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git`
 * install homebrew  
   ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 
