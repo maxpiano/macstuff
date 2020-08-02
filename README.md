@@ -63,6 +63,7 @@
     brew install coreutils
     brew install fd
     brew install discount
+    brew install shellcheck
     ```
   * update bash and set as default
     * `brew install bash`
