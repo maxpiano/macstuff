@@ -34,8 +34,7 @@
 * make dock disappear
 
 ## Install Stuff
-* **Font**
-
+* **Font**    
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-fira-code`
 * **Browser**
