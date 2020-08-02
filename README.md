@@ -34,17 +34,17 @@
 * make dock disappear
 
 ## Install Stuff
-* **Font**
+### Misc
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-fira-code`
-* **Browser**
+### Browser
   * `brew cask install microsoft-edge`
   * Extensions
     * [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     * [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
     * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
-* **Terminal**
+### Terminal
   * `brew cask install iterm2`
   * change font to fira code 14
   * change window size to 110x35
@@ -80,4 +80,5 @@
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_profile /Users/maxpiano/.bash_profile
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.inputrc /Users/maxpiano/.inputrc
     ```
-* **Editor**
+### Editors
+#### Emacs
