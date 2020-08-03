@@ -27,5 +27,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.singleQuote": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "workbench.preferredDarkColorTheme": "One Dark Pro"
 }

@@ -26,3 +26,8 @@ export EDITOR="nvim"
 # make coreutils available
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh"
+[ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm"

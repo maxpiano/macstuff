@@ -72,6 +72,7 @@
     brew install fd
     brew install discount
     brew install shellcheck
+    brew install nvm && mkdir ~/.nvm
     ```
   * update bash and set as default
     * `brew install bash`
