@@ -36,7 +36,7 @@
 ## Install Stuff
 ### Misc
   * `brew tap homebrew/cask-fonts`
-  * `brew cask install font-fira-code`
+  * `brew cask install font-fira-(code, sans, mono)`
 ### Browser
   * `brew cask install microsoft-edge`
   * Extensions
