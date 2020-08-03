@@ -89,7 +89,7 @@
     ```
 ### Editors
 
-#### Emacs
+#### (optional) Emacs
 ```bash
 brew tap d12frosted/emacs-plus
 ln -s /usr/local/opt/emacs-plus@27/Emacs.app /Applications
