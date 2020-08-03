@@ -3,5 +3,8 @@
     "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
     "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
-    "editor.cursorBlinking": "solid"
+    "editor.cursorBlinking": "solid",
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme"
 }
