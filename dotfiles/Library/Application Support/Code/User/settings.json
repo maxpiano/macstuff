@@ -1,0 +1,6 @@
+{
+    "vscode-neovim.neovimInitPath": "/Users/maxpiano/.vscode/init.vim",
+    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14
+}
