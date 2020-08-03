@@ -15,7 +15,7 @@ alias sshmaxbox='ssh seed@176.31.182.89'
 alias lg='lazygit'
 
 gp() {
-    git add .
-    git commit -am "$1"
-    git push
+  git add .
+  git commit -am "$1"
+  git push
 }

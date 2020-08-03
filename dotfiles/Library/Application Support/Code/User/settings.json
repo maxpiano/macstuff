@@ -15,5 +15,9 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "files.autoSave": "onFocusChange",
-    "editor.minimap.showSlider": "always"
+    "editor.minimap.showSlider": "always",
+    "editor.tabSize": 2,
+    "files.associations": {
+        ".inputrc": "shellscript"
+    }
 }
