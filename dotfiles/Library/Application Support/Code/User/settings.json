@@ -11,5 +11,7 @@
     "git.postCommitCommand": "sync",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeightBold": "500",
-    "terminal.integrated.drawBoldTextInBrightColors": false
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "git.confirmSync": false,
+    "git.autofetch": true
 }

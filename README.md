@@ -3,7 +3,9 @@
 *collection of commands and steps to set up a fresh Mac for development*
 
 * clone this repo  
-  * `mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git`
+  ```bash
+  mkdir /Users/maxpiano/repos && cd /Users/maxpiano/repos && git clone https://github.com/maxpiano/macstuff.git
+  ```
 * install homebrew  
   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
@@ -34,9 +36,11 @@
 * make dock disappear
 
 ## Install Stuff
+
 ### Misc
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-fira-{code, sans, mono}`
+
 ### Browser
   * `brew cask install microsoft-edge`
   * Extensions
@@ -45,7 +49,7 @@
     * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     * [Xirvik Seedbox Uploader](https://chrome.google.com/webstore/detail/xirvik-torrent-to-seedbox/gljdkkichjgocpdmiaachhlfccddcjgb)
     * [Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb)
-    
+
 ### Terminal
   * `brew cask install iterm2`
   * change font to fira code 14
@@ -56,7 +60,7 @@
   * no titlebar
   * add top and left margins of 20
   * cli tools
-    ```
+    ```bash
     brew install wget
     brew install --HEAD neovim
     brew install ranger
@@ -72,13 +76,13 @@
     * add `/usr/local/bin/bash` to `/etc/shells`
     * `chsh -s /usr/local/bin/bash`
   * add coreutils to .bashrc
-    ```
+    ```bash
     # make GNU commands available
     export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
     export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
     ```
   * symlink dotfiles
-    ```
+    ```bash
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bashrc /Users/maxpiano/.bashrc
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.bash_aliases /Users/maxpiano/.bash_aliases
@@ -88,6 +92,7 @@
     ln -s ~/repos/macstuff/dotfiles/Library/Application\ Support/Code/User/settings.json ~/Library/Application\ Support/Code/User/settings.json
     ```
 ### Editors
+
 #### Emacs
 ```bash
 brew tap d12frosted/emacs-plus
@@ -95,7 +100,7 @@ ln -s /usr/local/opt/emacs-plus@27/Emacs.app /Applications
 mkdir ~/.emacs.d && git clone https://github.com/hlissner/doom-emacs.git ~/.emacs.d
 ~/.emacs.d/bin/doom install
 ~/.emacs.d/bin/doom doctor # --> fix any occurring problems
-
 ```
+
 #### VSCode
 `brew cask install visual-studio-code`
