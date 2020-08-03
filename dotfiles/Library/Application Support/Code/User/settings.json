@@ -14,5 +14,6 @@
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.showSlider": "always"
 }

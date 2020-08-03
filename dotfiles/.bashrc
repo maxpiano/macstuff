@@ -23,6 +23,6 @@ HISTSIZE= HISTFILESIZE=
 # set neovim as default editor
 export EDITOR="nvim"
 
-# make GNU commands available
+# make coreutils available
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"

@@ -77,12 +77,6 @@
     * `brew install bash`
     * add `/usr/local/bin/bash` to `/etc/shells`
     * `chsh -s /usr/local/bin/bash`
-  * add coreutils to .bashrc
-    ```bash
-    # make GNU commands available
-    export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
-    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
-    ```
   * symlink dotfiles
     ```bash
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.config/nvim/init.vim /Users/maxpiano/.config/nvim/init.vim
