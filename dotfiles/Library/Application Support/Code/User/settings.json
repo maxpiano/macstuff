@@ -7,5 +7,9 @@
     "editor.lineNumbers": "relative",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "500",
+    "terminal.integrated.drawBoldTextInBrightColors": false
 }
