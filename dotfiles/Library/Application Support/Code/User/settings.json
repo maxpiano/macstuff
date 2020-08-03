@@ -13,5 +13,6 @@
     "terminal.integrated.fontWeightBold": "500",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "files.autoSave": "onFocusChange"
 }
