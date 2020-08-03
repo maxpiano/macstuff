@@ -95,3 +95,5 @@ mkdir ~/.emacs.d && git clone https://github.com/hlissner/doom-emacs.git ~/.emac
 ~/.emacs.d/bin/doom doctor # --> fix any occurring problems
 
 ```
+#### VSCode
+`brew install visual-studio-code`
