@@ -6,5 +6,6 @@
     "editor.cursorBlinking": "solid",
     "editor.lineNumbers": "relative",
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true
 }
