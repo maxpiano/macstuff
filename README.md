@@ -87,6 +87,7 @@
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.inputrc /Users/maxpiano/.inputrc\
     ln -s /Users/maxpiano/repos/macstuff/dotfiles/.vscode/init.vim /Users/maxpiano/.vscode/init.vim
     ln -s ~/repos/macstuff/dotfiles/Library/Application\ Support/Code/User/settings.json ~/Library/Application\ Support/Code/User/settings.json
+    ln -s ~/repos/macstuff/dotfiles/Library/Application\ Support/Code/User/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
     ```
 ### Editors
 

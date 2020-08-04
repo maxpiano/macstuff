@@ -28,5 +28,10 @@
     },
     "prettier.singleQuote": true,
     "editor.renderWhitespace": "all",
-    "workbench.preferredDarkColorTheme": "One Dark Pro"
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "editor.smoothScrolling": true,
+    "editor.fontLigatures": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
