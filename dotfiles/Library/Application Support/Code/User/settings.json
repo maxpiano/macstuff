@@ -33,5 +33,6 @@
     "editor.fontLigatures": true,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.scrollBeyondLastLine": false
 }
