@@ -1,7 +1,15 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "cmd+k cmd+g",
-        "command": "git.commit"
-    }
+  {
+    "key": "cmd+k cmd+g",
+    "command": "git.commit"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  }
 ]
