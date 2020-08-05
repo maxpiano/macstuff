@@ -36,6 +36,8 @@
     * right CMD + hjkl to arrows
     * caps to control and esc
 * make dock disappear
+* get 3-finger-tap middleclick
+  `brew cask install middleclick`
 
 ## Install Stuff
 
