@@ -1,40 +1,41 @@
 {
-    "vscode-neovim.neovimInitPath": "/Users/maxpiano/.vscode/init.vim",
-    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
-    "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.cursorBlinking": "solid",
-    "editor.lineNumbers": "relative",
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "material-icon-theme",
-    "git.enableSmartCommit": true,
-    "git.postCommitCommand": "sync",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontWeightBold": "500",
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "files.autoSave": "onFocusChange",
-    "editor.minimap.showSlider": "always",
-    "editor.tabSize": 2,
-    "files.associations": {
-        ".inputrc": "shellscript"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.singleQuote": true,
-    "editor.renderWhitespace": "all",
-    "workbench.preferredDarkColorTheme": "One Dark Pro",
-    "editor.smoothScrolling": true,
-    "editor.fontLigatures": true,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.scrollBeyondLastLine": false,
-    "editor.minimap.enabled": false,
-    "explorer.compactFolders": false
+  "vscode-neovim.neovimInitPath": "/Users/maxpiano/.vscode/init.vim",
+  "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+  "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.cursorBlinking": "solid",
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeightBold": "500",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.showSlider": "always",
+  "editor.tabSize": 2,
+  "files.associations": {
+    ".inputrc": "shellscript"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "editor.renderWhitespace": "all",
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "editor.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.scrollBeyondLastLine": false,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "eslint.validate": ["javascript", "vue"]
 }
