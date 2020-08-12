@@ -82,6 +82,7 @@ _collection of commands and steps to set up a fresh Mac for development_
   brew install coreutils
   brew install fd
   brew install discount
+  brew install p7zip
   brew install shellcheck
   brew install nvm && mkdir ~/.nvm
   ```

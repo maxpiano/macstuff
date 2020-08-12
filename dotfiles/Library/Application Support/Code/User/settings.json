@@ -37,5 +37,18 @@
   "editor.scrollBeyondLastLine": false,
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
-  "eslint.validate": ["javascript", "vue"]
+"eslint.validate": [
+    "javascript",
+    "vue"
+],
+"[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+},
+"workbench.tree.indent": 12,
+"workbench.startupEditor": "newUntitledFile",
+"vetur.format.scriptInitialIndent": true,
+"vetur.format.styleInitialIndent": true,
+"[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
 }
