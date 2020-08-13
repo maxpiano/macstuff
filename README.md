@@ -49,6 +49,7 @@ _collection of commands and steps to set up a fresh Mac for development_
 
 - `brew tap homebrew/cask-fonts`
 - `brew cask install font-fira-{code, sans, mono}`
+- `brew cask install google-drive-file-stream`
 
 ### Browser
 
