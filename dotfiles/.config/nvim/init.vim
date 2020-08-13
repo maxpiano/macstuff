@@ -1,6 +1,8 @@
 " Basics
 set number relativenumber
 syntax on
+let mapleader = "\<Space>"
+map <Esc><Esc> :w<CR>
 
 " Plugins
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -33,16 +35,21 @@ Plug 'sheerun/vim-polyglot'
 "Plug 'romainl/vim-cool'
 "Plug 'tpope/vim-surround'
 "Plug 'arcticicestudio/nord-vim'
-"Plug 'psliwka/vim-smoothie'
+Plug 'psliwka/vim-smoothie'
 "Plug 'Shougo/echodoc'
 "Plug 'ryanoasis/vim-devicons'
+Plug 'easymotion/vim-easymotion'
 Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " Plugin Settings
-" colorscheme
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
 let g:onedark_hide_endofbuffer=1
 let g:onedark_terminal_italics=1
 colorscheme onedark
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+nmap s <Plug>(easymotion-overwin-f2)
+let g:EasyMotion_smartcase = 1
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)

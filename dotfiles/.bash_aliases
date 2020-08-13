@@ -13,6 +13,7 @@ alias sr='v ~/.config/ranger/rc.conf'
 alias g='git'
 alias sshmaxbox='ssh seed@176.31.182.89'
 alias lg='lazygit'
+alias ionos='ssh u58286969@home323405630.1and1-data.host'
 
 gp() {
   git add .
