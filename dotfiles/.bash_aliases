@@ -14,7 +14,7 @@ alias g='git'
 alias lg='lazygit'
 alias sshionos='ssh u58286969@home323405630.1and1-data.host'
 alias sshmaxbox='ssh seed@176.31.182.89'
-alias sshohostinger='ssh -p 65002 u499334472@45.87.80.103'
+alias sshhostinger='ssh -p 65002 u499334472@45.87.80.103'
 
 gp() {
   git add .

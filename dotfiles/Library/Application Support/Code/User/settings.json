@@ -1,7 +1,5 @@
 {
-  "vscode-neovim.neovimInitPath": "/Users/maxpiano/.vscode/init.vim",
-  "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
-  "editor.fontFamily": "'Operator Mono SSm Lig',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'OperatorMonoSSmLig-Book',Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.cursorBlinking": "solid",
   "editor.lineNumbers": "relative",
@@ -9,8 +7,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeightBold": "500",
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -24,7 +21,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
@@ -38,24 +34,28 @@
   "editor.scrollBeyondLastLine": false,
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
-"eslint.validate": [
-    "javascript",
-    "vue"
-],
-"[vue]": {
+  "eslint.validate": ["javascript", "vue"],
+  "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
-},
-"workbench.tree.indent": 12,
-"workbench.startupEditor": "newUntitledFile",
-"vetur.format.scriptInitialIndent": true,
-"vetur.format.styleInitialIndent": true,
-"[json]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"window.zoomLevel": 0,
-"prettier.jsxSingleQuote": true,
-"editor.formatOnSave": true,
-"tailwindCSS.includeLanguages": {
-  "vue": "html"
-}
+  },
+  "workbench.tree.indent": 12,
+  "workbench.startupEditor": "newUntitledFile",
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.format.styleInitialIndent": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "prettier.jsxSingleQuote": true,
+  "editor.formatOnSave": true,
+  "tailwindCSS.includeLanguages": {
+    "vue": "html"
+  },
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/maxpiano/.vscode/init.vim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "editor.fontWeight": "200",
+  "terminal.integrated.fontWeightBold": "normal",
+  "customizeUI.stylesheet": {
+    ".label-name": "letter-spacing: 0.25px !important"
+  }
 }
