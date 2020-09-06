@@ -11,9 +11,10 @@ alias sba='v ~/.bash_aliases'
 alias sv='v ~/.config/nvim/init.vim'
 alias sr='v ~/.config/ranger/rc.conf'
 alias g='git'
-alias sshmaxbox='ssh seed@176.31.182.89'
 alias lg='lazygit'
-alias ionos='ssh u58286969@home323405630.1and1-data.host'
+alias sshionos='ssh u58286969@home323405630.1and1-data.host'
+alias sshmaxbox='ssh seed@176.31.182.89'
+alias sshohostinger='ssh -p 65002 u499334472@45.87.80.103'
 
 gp() {
   git add .

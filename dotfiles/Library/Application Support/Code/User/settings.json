@@ -1,11 +1,11 @@
 {
   "vscode-neovim.neovimInitPath": "/Users/maxpiano/.vscode/init.vim",
   "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
-  "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono SSm Lig',Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.cursorBlinking": "solid",
   "editor.lineNumbers": "relative",
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "material-icon-theme",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
@@ -24,6 +24,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
+
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
@@ -50,5 +51,11 @@
 "vetur.format.styleInitialIndent": true,
 "[json]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"window.zoomLevel": 0,
+"prettier.jsxSingleQuote": true,
+"editor.formatOnSave": true,
+"tailwindCSS.includeLanguages": {
+  "vue": "html"
 }
 }
