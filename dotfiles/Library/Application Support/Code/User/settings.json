@@ -25,7 +25,7 @@
   },
   "prettier.singleQuote": true,
   "editor.renderWhitespace": "all",
-  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "workbench.preferredDarkColorTheme": "Night Owl",
   "editor.smoothScrolling": true,
   "editor.fontLigatures": true,
   "[jsonc]": {
@@ -57,5 +57,17 @@
   "terminal.integrated.fontWeightBold": "normal",
   "customizeUI.stylesheet": {
     ".label-name": "letter-spacing: 0.25px !important"
-  }
+  },
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.preferredHighContrastColorTheme": "Activate UMBRA protocol",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ]
 }
