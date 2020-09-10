@@ -4,7 +4,7 @@ set ignorecase
 set smartcase
 
 " maps
-let mapleader = "\<Space>"
+" let mapleader = "\<Space>"
 nmap <silent>H :tabp<cr>
 nmap <silent>L :tabn<cr>
 xmap gc  <Plug>VSCodeCommentary
@@ -27,7 +27,7 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
-" Better Navigation
+" better navigation
 nnoremap <silent> <C-j> :call VSCodeNotify('workbench.action.navigateDown')<CR>
 xnoremap <silent> <C-j> :call VSCodeNotify('workbench.action.navigateDown')<CR>
 nnoremap <silent> <C-k> :call VSCodeNotify('workbench.action.navigateUp')<CR>
@@ -37,6 +37,6 @@ xnoremap <silent> <C-h> :call VSCodeNotify('workbench.action.navigateLeft')<CR>
 nnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 xnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 
-" Bind C-/ to vscode commentary since calling from vscode produces double comments due to multiple cursors
-" xnoremap <silent> <C-/> :call Comment()<CR>
-" nnoremap <silent> <C-/> :call Comment()<CR>
+" whichkey
+nnoremap <silent> <Space> :call VSCodeNotify('whichkey.show')<CR>
+xnoremap <silent> <Space> :call VSCodeNotify('whichkey.show')<CR>

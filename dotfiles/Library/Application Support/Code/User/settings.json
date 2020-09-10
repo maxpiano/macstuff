@@ -3,7 +3,7 @@
   "editor.fontSize": 14,
   "editor.cursorBlinking": "solid",
   "editor.lineNumbers": "relative",
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Night Owl Light",
   "workbench.iconTheme": "material-icon-theme",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
